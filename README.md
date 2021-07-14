@@ -1,5 +1,11 @@
 # october-flag-test
 
+The server runs on port 8080 as per defined in the requirements
+
+Please find the installation process below provided by default
+
+
+
 This README outlines the details of collaborating on this Ember application.
 A short introduction of this app could easily go here.
 
@@ -21,8 +27,8 @@ You will need the following things properly installed on your computer.
 ## Running / Development
 
 * `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
-* Visit your tests at [http://localhost:4200/tests](http://localhost:4200/tests).
+* Visit your app at [http://localhost:8080](http://localhost:8080).
+* Visit your tests at [http://localhost:8080/tests](http://localhost:8080/tests).
 
 ### Code Generators
 

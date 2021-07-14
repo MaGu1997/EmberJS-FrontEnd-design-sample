@@ -1,0 +1,78 @@
+
+<div class='ProjectDetailsCard'>
+  <img
+    src='https://cdn.october.eu/{{@project.illustration.url}}'
+    alt='A picture of {{@project.illustration.meta.name}}'
+  />
+  <div class='container__text'>
+    <h1>{{@project.name}} </h1>
+    <p>
+      {{@project.activity}}
+    </p>
+    <div class='container__text__timing'>
+      <div class='container__text__timing_time'>
+        <h2>Amount</h2>
+        <p>{{@project.amount}}</p>
+      </div>
+      <div class='container__text__timing_time'>
+        <h2>Rate</h2>
+        <p>{{@project.rate}}</p>
+      </div>
+      <div class='container__text__timing_time'>
+        <h2>Status</h2>
+        <p>{{@project.status}}</p>
+      </div>
+
+    </div>
+    <p>
+      {{this.stamp.summaryDetails}}
+    </p>
+  </div>
+
+</div>
+<div class='BusinessDetailsCard'>
+  <div class='container__text'>
+    <h1>Business Information</h1>
+
+    <div class='container__text__timing'>
+      <div class='container__text__timing_time'>
+        <h2>Name</h2>
+        <p>{{@project.business.name}}</p>
+      </div>
+      <div class='container__text__timing_time'>
+        <h2>City</h2>
+        <p>{{@project.business.address.city}}</p>
+      </div>
+      <div class='container__text__timing_time'>
+        <h2>Zipcode</h2>
+        <p>{{@project.business.address.zipCode}}</p>
+      </div>
+
+    </div>
+    <p>
+      Latitude:
+      {{@project.business.address.location.lat}}, Longitude:{{@project.business.address.location.lng}}
+    </p>
+  </div>
+</div>
+<div class='BusinessDetailsCard'>
+  <div class='container__text'>
+    <h1>Signatory Information</h1>
+
+    <div class='container__text__timing'>
+      <div class='container__text__timing_time'>
+        <h2>Name</h2>
+        <p>{{@project.signatory.name}}</p>
+      </div>
+      <div class='container__text__timing_time'>
+        <h2>City</h2>
+        <p>{{@project.signatory.position}}</p>
+      </div>
+      <div class='container__text__timing_time'>
+        <h2>Since</h2>
+        <p>{{@project.signatory.since}}</p>
+      </div>
+    </div>
+
+  </div>
+</div>

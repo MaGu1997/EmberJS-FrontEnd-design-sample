@@ -1,0 +1,13 @@
+<div class='container'>
+  <div class='container__text'>
+    <h1>Financed projects </h1>
+  </div>
+  <div class='containerFinanced'>
+    {{#each @financedProjects as |project|}}
+      <FinancedCard
+        @project={{project}}
+        @language={{project.business.address.country}}
+      />
+    {{/each}}
+  </div>
+</div>

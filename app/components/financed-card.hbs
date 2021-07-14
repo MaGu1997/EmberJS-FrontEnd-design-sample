@@ -1,0 +1,40 @@
+<div class='OnlineCard'>
+  <img
+    src='https://cdn.october.eu/{{@project.illustration.url}}'
+    alt='A picture of {{@project.illustration.meta.name}}'
+  />
+  <div class='Flag'>
+    <img
+      src='https://lipis.github.io/flag-icon-css/flags/1x1/{{@project.business.address.country}}.svg'
+      alt='A picture of {{@project.business.address.country}}'
+    />
+
+  </div>
+  <div class='OnlineText'>
+    <div class='OnlineLeft'>
+      <h4 style='padding-top: 3%;'>{{@project.name}}</h4>
+      <h5 style='padding-top: 5%;'>
+        {{@project.rate}}
+        % •
+        {{this.stamp.duration}}</h5>
+    </div>
+    <div class='OnlineCenter'>
+      <h5 style=' position: absolute;bottom: 5%;left: 45%;'>
+        €
+        {{@project.amount}}</h5>
+      {{!-- <h5>{{@project.grade}}</h5> --}}
+    </div>
+
+    <div class='OnlineRight'>
+      <h5>
+        <a href='/projects/{{@project.id}}'>{{@project.name}}</a>
+      </h5>
+      <h5>{{this.stamp.duration}} ago</h5>
+      <div style='display:block; margin-top: 1%;'>
+        <span class={{this.stamp.bulletClass}}></span>
+        <span>{{@project.grade}}</span>
+      </div>
+    </div>
+  </div>
+
+</div>

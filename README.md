@@ -1,4 +1,6 @@
-# october-flag-test
+
+#Languages used
+Javascript (EmberJS)
 
 The server runs on port 8080 as per defined in the requirements
 

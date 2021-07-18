@@ -1,6 +1,6 @@
 
 #Languages used
-Javascript (EmberJS)
+Javascript (EmberJS), HTML, CSS
 
 The server runs on port 8080 as per defined in the requirements
 
